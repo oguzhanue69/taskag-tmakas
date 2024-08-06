@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taş Kağıt Makas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>SCORBOARD</h2>
+      <!-- skor tabelası alanı -->
+      <div class="tabela">
+        <div class="oyuncu_tabela">
+          <span>Oyuncu </span>
+          <div id="oyuncupuan" class="kutu oyuncu_skor">0</div>
+        </div>
+        <p class="vs">vs</p>
+        <div class="bilgisayar_tabela">
+          <span>Bilgisayar</span>
+          <div id="bilgisayarpuan" class="kutu bilgisayar_skor">0</div>
+        </div>
+      </div>
+      <!-- burası seçim alanı -->
+      <div class="secim">
+        <img id="tas" src="resim/tas.png" alt="" title="TAS" />
+        <img id="kagit" src="resim/kagit.png" alt="" title="KAGIT" />
+        <img id="makas" src="resim/makas.png" alt="" title="MAKAS" />
+      </div>
+      <!-- burası seçimlerin geldiği alan -->
+      <div class="secimler">
+        <div class="oyuncu_secim">
+          <span>Oyuncu</span>
+          <img id="oyuncusec" src="resim/soru.png" alt="" />
+        </div>
+        <div class="bilgisayar_secim">
+          <span>Bilgisayar</span>
+          <img id="bilgisec" src="resim/soru.png " alt="" />
+        </div>
+        <div class="mesaj" id="mesaj"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
